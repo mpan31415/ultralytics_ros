@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.0.2)
 project(ultralytics_ros)
 set(CMAKE_CXX_STANDARD 14)
 
+add_compile_options(-Wno-error=shadow)
+
 if(NOT DEFINED CMAKE_SUPPRESS_DEVELOPER_WARNINGS)
   set(CMAKE_SUPPRESS_DEVELOPER_WARNINGS 1 CACHE INTERNAL "No dev warnings")
 endif()
