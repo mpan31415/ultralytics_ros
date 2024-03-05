@@ -11,7 +11,7 @@ ROS package for real-time object detection and segmentation using the Ultralytic
 ## Setup ⚙
 ```
 $ cd ~/catkin_ws/src
-$ GIT_LFS_SKIP_SMUDGE=1 git clone -b noetic-devel https://github.com/Alpaca-zip/ultralytics_ros.git
+$ GIT_LFS_SKIP_SMUDGE=1 git clone -b noetic-devel https://github.com/mpan31415/ultralytics_ros.git
 $ python3 -m pip install -r ultralytics_ros/requirements.txt
 $ cd ~/catkin_ws
 $ rosdep install -r -y -i --from-paths .
